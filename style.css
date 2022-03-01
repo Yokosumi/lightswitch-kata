@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  transition: 1s;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.togglebutton {
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.buttonStyle {
+  font-size: 3rem;
+  background-color: lightgray;
+  font-weight: 700;
+}
+
+.boxShadow {
+  box-shadow: -4px 5px 147px 28px rgba(221, 224, 19, 0.75);
+  -webkit-box-shadow: -4px 5px 147px 28px rgba(221, 224, 19, 0.75);
+  -moz-box-shadow: -4px 5px 147px 28px rgba(221, 224, 19, 0.75);
+}
+
+.btn-border {
+  border: 8px solid black;
+}
+
+.btn-border-white {
+  border: 8px solid white;
+}
